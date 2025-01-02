@@ -37,11 +37,23 @@ img {
 }
 
 .section {
-  padding: 2.25rem 0;
+  padding: 0 0 3.5rem 0;
 }
 
 .grid {
   display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.align--center {
+  align-items: center;
+}
+
+.g2 {
+  gap: 2rem;
 }
 
 .titles--content {
@@ -56,11 +68,28 @@ img {
   gap: .5rem;
 }
 
+.flex--wrap {
+  flex-wrap: wrap;
+}
+
+
 
 
 /* Generic colors & more */
 .text--red {
   color: red;
+}
+
+.text--white {
+  color: white;
+}
+
+.bg--grey {
+  background-color: #C7D0CF;
+}
+
+.bg--black {
+  background-color: black;
 }
 
 .text--center {
@@ -71,6 +100,9 @@ img {
   border-radius: .95rem;
 }
 
+.p24 {
+  padding: 1.5rem;
+}
 
 
 

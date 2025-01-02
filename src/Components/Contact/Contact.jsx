@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='section'>
-      <contact>
+      <contact className="grid titles--content">
         <div className="contact__left--div grid titles--content">
           <h1 className='text--red'>Get In Touch With Us</h1>
           <div className='grid inside--card'>
@@ -14,22 +14,22 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact__right--div">
-          <div className='br15'>
-            <div className="contact__email--div">
-              <div className="contact__email__title--div">
+        <div className="contact__right--div br15 bg--grey p24">
+          <div className='grid titles--content'>
+            <div className="contact__email--div grid elements--icon">
+              <div className="contact__email__title--div flex align--center elements--icon">
                 <img src="/Images/Icons/email.png" alt="" />
-                <p>email</p>
+                <h4>Email</h4>
               </div>
-              <div className="contact__email__content--div">
+              <div className="contact__email__content--div ">
                 <p>General  queries: laman@example.com</p>
                 <p>Job queries: laman@job.com</p>
               </div>
             </div>
-            <div className="contact__address--div">
-              <div className="contact__address__title--div">
+            <div className="contact__address--div grid elements--icon">
+              <div className="contact__address__title--div flex align--center elements--icon">
                 <img src="/Images/Icons/loc.png" alt="" />
-                <p>Office Address</p>
+                <h4>Office Address</h4>
               </div>
               <div className="contact__address__content--div">
                 <p>United Arab Emirates</p>
@@ -37,31 +37,31 @@ function Contact() {
                 <p>Building name/ Street no</p>
               </div>
             </div>
-            <div className="contact__phone--div">
-              <div className="contact__phone__title--div">
+            <div className="contact__phone--div grid elements--icon">
+              <div className="contact__phone__title--div flex align--center elements--icon">
                 <img src="/Images/Icons/phone.png" alt="" />
-                <p>Phone</p>
+                <h4>Phone</h4>
               </div>
-              <div className="contact__phone__content--div">
+              <div className="contact__phone__content--div flex flex--wrap elements--icon">
                 <p>Phone 1: +971 04 32312312</p>
                 <p>Phone 2: +971 04 32312312</p>
               </div>
             </div>
-            <div className="contact__socials--div">
-              <div className="contact__browser__title--div">
+            <div className="contact__socials--div grid elements--icon">
+              <div className="contact__browser__title--div flex align--center elements--icon">
                 <img src="/Images/Icons/browser.png" alt="" />
-                <p>Socials</p>
+                <h4>Socials</h4>
               </div>
-              <div className="contact__socials__content--div">
-                <div className="contact__socials--inner--div">
+              <div className="contact__socials__content--div flex flex--wrap elements--icon">
+                <div className="contact__socials--inner--div flex elements--icon">
                   <img src="/Images/Icons/insta.png" alt="" />
                   <p>laman_trading</p>
                 </div>
-                <div className="contact__socials--inner--div">
+                <div className="contact__socials--inner--div flex elements--icon">
                   <img src="/Images/Icons/fb.png" alt="" />
                   <p>lamaan trading L.L.C</p>
                 </div>
-                <div className="contact__socials--inner--div">
+                <div className="contact__socials--inner--div flex elements--icon ">
                   <img src="/Images/Icons/watsapp.png" alt="" />
                   <p>+971 54 34343434</p>
                 </div>
