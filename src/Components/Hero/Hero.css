@@ -1,0 +1,43 @@
+.hero {
+    background-image: url('/Images/Home-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(47, 41, 41, 0.6);
+    background-blend-mode: darken;
+    padding-top: 2rem;
+    margin-bottom: 3.5rem;
+}
+
+
+
+.hero__content--div {
+    min-height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.hero__content--div h1 {}
+
+.hero__card--div {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.hero__card {
+    background-color: rgb(216, 146, 146);
+    padding: .75em 1em;
+
+
+}
+
+.hero__socials--div div {
+    padding: .75rem;
+    background-color: black;
+    border-radius: 10rem;
+}

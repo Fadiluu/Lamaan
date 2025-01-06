@@ -42,7 +42,7 @@ function Contact() {
                 <img src="/Images/Icons/phone.png" alt="" />
                 <h4>Phone</h4>
               </div>
-              <div className="contact__phone__content--div flex flex--wrap elements--icon">
+              <div className="contact__phone__content--div ">
                 <p>Phone 1: +971 04 32312312</p>
                 <p>Phone 2: +971 04 32312312</p>
               </div>

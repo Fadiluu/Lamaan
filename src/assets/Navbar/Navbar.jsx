@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <header>
         <div className="navbar">
-            <div className="logo"><a href="#">Lamaan General Trading</a></div>
+            <div className="logo grid"><a href="#"><h4 className='text--red'>Lamaan General Trading</h4></a></div>
             <ul className="links">
                 <li><a href="hero">Home</a></li>
                 <li><a href="contact">Contact us</a></li>

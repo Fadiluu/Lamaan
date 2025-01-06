@@ -1,3 +1,10 @@
+.navbar {
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: .95rem;
+}
+
+/* Navigation Setup -------------------------*/
 li {
     list-style: none;
 }
@@ -125,4 +132,11 @@ header {
         left: 2rem;
         width: unset;
     }
+}
+
+
+/* CUSTOMIZE */
+
+.logo{
+    
 }
