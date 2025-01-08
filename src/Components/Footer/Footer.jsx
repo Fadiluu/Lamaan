@@ -12,10 +12,16 @@ function Footer() {
         </div>
         <div className="footer__second--div p24 ">
           <p>Privacy Policy</p>
-          <div className="footer__socials--div flex ">
+          {/* <div className="footer__socials--div flex ">
             <img src="/Images/Icons/insta.png" alt="" />
             <img src="/Images/Icons/watsapp.png" alt="" />
             <img src="/Images/Icons/fb.png" alt="" />
+          </div> */}
+          <div className="footer__menu--div flex ">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Brands">Branches</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </div>
           <div className="line-v"></div>
           <p>Terms & conditions</p>

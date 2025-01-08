@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
   return (
-    <div className='section'>
+    <div className='section' id='About'>
       <div className=" grid inside--card">
         <div className="about__stroy--div grid titles--content">
           <div className="about__story__content--div grid titles--content">
@@ -18,9 +18,9 @@ function About() {
               <li>
                 <div class="frame-child br15"></div>
               </li>
-              <li><img class="frame-item br15" alt=""  src='./Images/ci2.png'/></li>
-              <li><img class="frame-inner br15" alt="" src='./Images/contact.jpg'/></li>
-              <li><img class="frame-icon br15" alt="" src='./Images/contactimage.png'/></li>
+              <li><img class="frame-item br15" alt=""  src='./Images/Contact/Mashahir.jpeg'/></li>
+              <li><img class="frame-inner br15" alt="" src='./Images/Contact/Lamaan.jpeg'/></li>
+              <li><img class="frame-item br15" alt=""  src='./Images/Contact/Desert.jpeg'/></li>
             </ul>
           </div>
         </div>

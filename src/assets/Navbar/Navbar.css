@@ -1,9 +1,3 @@
-.navbar {
-    background-color: black;
-    padding: 1.5rem;
-    border-radius: .95rem;
-}
-
 /* Navigation Setup -------------------------*/
 li {
     list-style: none;
@@ -16,7 +10,7 @@ a {
 }
 
 a:hover {
-    color: orange;
+    color: red;
 }
 
 /* HEADER */
@@ -54,25 +48,23 @@ header {
 }
 
 .action_btn {
-    background-color: orange;
+    background-color: #101720;
     color: #fff;
-    padding: .5rem 1rem;
+    padding: .15rem .75rem;
     border: none;
     outline: none;
-    border-radius: 20px;
-    font-size: .8rem;
-    font-weight: bold;
+    border-radius: 10rem;
     cursor: pointer;
-    transition: scale .2 ease;
+    /* transition: scale .2 ease; */
 }
 
 .action_btn:hover {
-    scale: 1.05;
+    /* scale: 1.05; */
     color: #fff;
 }
 
 .action_btn:active {
-    scale: 0.95;
+    /* scale: 0.95; */
 }
 
 
@@ -84,7 +76,8 @@ header {
     top: 60px;
     height: 0;
     width: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
+    background-color: #101720;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -124,6 +117,12 @@ header {
     .dropdown_menu {
         display: block;
     }
+
+    .navbar {
+        background-color: #101720;
+        padding: 1.5rem;
+        border-radius: 10rem;
+    }
 }
 
 
@@ -137,6 +136,15 @@ header {
 
 /* CUSTOMIZE */
 
-.logo{
-    
+@media (min-width:992px) {
+    .links {
+        background-color: #101720;
+        border-radius: 50rem;
+        padding: 0.4rem 3.125rem;
+    }
+}
+
+.action_btn img {
+    width: 20px;
+    height: 20px;
 }

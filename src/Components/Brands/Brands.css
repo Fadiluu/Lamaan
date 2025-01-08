@@ -2,12 +2,18 @@
     gap: 1.25rem;
 }
 
+.brands__second--div img {
+    max-height: 23.125rem;
+    width: 100%;
+}
+
 .brands__second--div {
     /* display: grid; */
-    grid-template-areas: 'one one'
-        'two two'
-        'three three'
-        'four four';
+    grid-auto-columns: 1fr;
+    grid-template-areas: 'one'
+        'two'
+        'three'
+        'four   ';
 }
 
 .brands__second--div div:nth-child(1) {
@@ -61,5 +67,6 @@
 
     .brands__second--div img {
         min-height: 21rem;
+        max-height: 21rem;
     }
 }

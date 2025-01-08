@@ -19,17 +19,31 @@
 
 }
 
+.hero__content--div h1 {
+    margin-inline: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(22) forwards, blink 1s step-end infinite, hideBorder 3s forwards;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+
+
 .hero__card {
-    background-color: rgb(216, 146, 146);
     padding: .75em 1em;
 
 
-}
-
-.hero__socials--div div {
-    padding: .75rem;
-    background-color: black;
-    border-radius: 10rem;
 }
 
 
@@ -43,18 +57,20 @@
 
 .hero__card--div div:nth-child(1) {
     grid-area: emp;
-    background: black;
+
 }
 
 .hero__card--div div:nth-child(2) {
     grid-area: exp;
-    background-color: black;
+
 }
 
 .hero__card--div div:nth-child(3) {
     grid-area: custom;
-    background-color: black;
+
 }
+
+
 
 @media (min-width:480px) {
     .hero__card--div {

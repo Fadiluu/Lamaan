@@ -3,19 +3,16 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div className='section'>
+    <div className='section grid titles--content' id='Contact'>
+            <h2 className='text--red'>Get In Touch With Us</h2>
       <contact className="contact--div grid titles--content">
         <div className="contact__left--div grid titles--content">
-          <h2 className='text--red'>Get In Touch With Us</h2>
           <div className='grid titles--content'>
             <p>We’re here to help! Whether you have a question, need assistance, want to explore partnership opportunities, or simply wish to learn more about what we offer, don’t hesitate to reach out. We’re always ready to listen and look forward to connecting with you.</p>
-            <div className="contact__image--div">
-              <img className="br15" src="./Images/contact.jpg" alt="" />
+            <div className="contact__image--mobile contact__image--div">
+              <img className="br15" src="./Images/Lamaan.jpeg" alt="" />
             </div>
-          </div>
-        </div>
-        <div className="contact__right--div br15 bg--grey p24">
-          <div className='grid titles--content'>
+            <div className='contact__icons--div grid titles--content br15 bg--grey p24'>
             <div className="contact__email--div grid elements--icon">
               <div className="contact__email__title--div flex align--center elements--icon">
                 <img src="/Images/Icons/email.png" alt="" />
@@ -47,27 +44,13 @@ function Contact() {
                 <p>Phone 2: +971 04 32312312</p>
               </div>
             </div>
-            <div className="contact__socials--div grid elements--icon">
-              <div className="contact__browser__title--div flex align--center elements--icon">
-                <img src="/Images/Icons/browser.png" alt="" />
-                <h4>Socials</h4>
-              </div>
-              <div className="contact__socials__content--div grid elements--icon">
-                <div className="contact__socials--inner--div flex elements--icon">
-                  <img src="/Images/Icons/insta.png" alt="" />
-                  <p>laman_trading</p>
-                </div>
-                <div className="contact__socials--inner--div flex elements--icon">
-                  <img src="/Images/Icons/fb.png" alt="" />
-                  <p>lamaan trading L.L.C</p>
-                </div>
-                <div className="contact__socials--inner--div flex elements--icon ">
-                  <img src="/Images/Icons/watsapp.png" alt="" />
-                  <p>+971 54 34343434</p>
-                </div>
-              </div>
-            </div>
           </div>
+          </div>
+        </div>
+        <div className="contact__right--div">
+        <div className="contact__image--desktop contact__image--div">
+              <img className="br15" src="./Images/Lamaan.jpeg" alt="" />
+            </div>
         </div>
       </contact>
     </div>

@@ -3,7 +3,7 @@ import './Brands.css'
 
 function Brands() {
   return (
-    <div className='section'>
+    <div className='section' id='Brands'>
       <div className="grid titles--content">
         <div className="brands__first--div">
           <div className="brands__first__title--div grid titles--content">
@@ -22,19 +22,19 @@ function Brands() {
         </div>
         <div className="brands__second--div text--center grid inside--card">
             <div className="brands__image--div grid elements--icon">
-              <img src="/Images/Test.jpg" alt="" className='br15' />
+              <img src="/Images/Desert.jpeg" alt="" className='br15' />
               <h4>Desert Palace Trading</h4>
             </div>
             <div className="brands__image--div grid elements--icon">
-              <img src="/Images/Test.jpg" alt="" className='br15'/>
+              <img src="/Images/clever.jpeg" alt="" className='br15'/>
               <h4>Clever Trading L.L.C</h4>
             </div>
             <div className="brands__image--div grid">
-              <img src="/Images/Test.jpg" alt="" className='br15'/>
+              <img src="/Images/garden.jpeg" alt="" className='br15'/>
               <h4>Garden Gate Trading</h4>
             </div>
             <div className="brands__image--div grid elements--icon">
-              <img src="/Images/Test.jpg" alt="" className='br15'/>
+              <img src="/Images/Mashahir.jpeg" alt="" className='br15'/>
               <h4>Rokn Al Mashahir Gen L.L.C</h4>
             </div>
         </div>
