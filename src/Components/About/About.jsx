@@ -4,7 +4,7 @@ import './About.css'
 function About() {
   return (
     <div className='section'>
-      <div className="grid inside--card">
+      <div className=" grid inside--card">
         <div className="about__stroy--div grid titles--content">
           <div className="about__story__content--div grid titles--content">
             <h4>Our  Story</h4>
@@ -14,21 +14,14 @@ function About() {
             </div>
           </div>
           <div className="about__story__image--div">
-        
-            <div className="frame">
-              <div className="overlap-group">
-                <div className="div" />
-                  <div className="image-removebg-wrapper">
-                    <img className="image-removebg br15" alt="Image removebg" src='./Images/ci2.png'/>
-                  </div>
-                  <div className="image-wrapper">
-                    <img className="image br15" alt="Image" src='./Images/contactimage.png' />
-                  </div>
-                  <div className="img-wrapper">
-                    <img className="img br15" alt="Image" src='./Images/contact.jpg' />
-                </div>
-              </div>
-            </div>
+            <ul class="frame-parent">
+              <li>
+                <div class="frame-child br15"></div>
+              </li>
+              <li><img class="frame-item br15" alt=""  src='./Images/ci2.png'/></li>
+              <li><img class="frame-inner br15" alt="" src='./Images/contact.jpg'/></li>
+              <li><img class="frame-icon br15" alt="" src='./Images/contactimage.png'/></li>
+            </ul>
           </div>
         </div>
         <div className="about__mission__vision--div grid inside--card">

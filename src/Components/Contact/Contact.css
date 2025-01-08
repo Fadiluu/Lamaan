@@ -2,3 +2,24 @@
     width: 1.5rem;
     height: 1.5rem;
 }
+
+
+
+@media (min-width:720px) {
+    .contact__left--div img {
+        /* height: 100%; */
+    }
+
+    .contact--div {
+        /* grid-template-columns: repeat(2, 1fr); */
+        display: flex;
+    }
+
+    .contact--div div:nth-child(1) {
+        flex: 1 1 50%;
+    }
+
+    .contact--div div:nth-child(2) {
+        flex: 1 1 50%;
+    }
+}

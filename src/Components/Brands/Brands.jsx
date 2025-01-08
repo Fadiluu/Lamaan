@@ -4,7 +4,7 @@ import './Brands.css'
 function Brands() {
   return (
     <div className='section'>
-      <div className="grid inside--card">
+      <div className="grid titles--content">
         <div className="brands__first--div">
           <div className="brands__first__title--div grid titles--content">
             <div className='grid titles--content'>
@@ -29,7 +29,7 @@ function Brands() {
               <img src="/Images/Test.jpg" alt="" className='br15'/>
               <h4>Clever Trading L.L.C</h4>
             </div>
-            <div className="brands__image--div grid elements--icon">
+            <div className="brands__image--div grid">
               <img src="/Images/Test.jpg" alt="" className='br15'/>
               <h4>Garden Gate Trading</h4>
             </div>

@@ -13,7 +13,7 @@ function Hero() {
         </div>
         <div className="hero__content--div container text--center grid titles--content">
           <div className='grid elements--icon'>
-            <h1>Lamaan General<br></br>Trading L.L.C</h1>
+            <h1 className='text--red'>Lamaan General<br></br>Trading L.L.C</h1>
             <p>Your trusted partner since 1994</p>
           </div>
           <div className="hero__socials--div flex elements--icon ">
@@ -27,7 +27,7 @@ function Hero() {
               <img src="/Images/Icons/wlinkdein.png" alt="" />
             </div>
           </div>
-          <div className="hero__card--div flex flex--wrap elements--icon">
+          <div className="hero__card--div grid elements--icon">
             <div className="hero__card br15">
               <h4>50+</h4>
               <p>Employees</p>
