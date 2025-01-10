@@ -159,3 +159,35 @@ h4 {
     line-height: 32px;
   }
 }
+
+
+/* animation for all main section */
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    /* scale: 0.5; */
+    transform: translate(-100px);
+    clip-path: inset(100% 100% 0 0);
+  }
+
+  to {
+    opacity: 1;
+    /* scale: 1; */
+    transform: translate(0px);
+    /* clip-path: inset(0 0 0 0); */
+  }
+}
+
+.block {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
+  /* animation-range: entry 0% cover 40%; */
+}
+
+@media (min-width:720px) {
+  .block {
+    animation-range: entry 0% cover 40%;
+  }
+}

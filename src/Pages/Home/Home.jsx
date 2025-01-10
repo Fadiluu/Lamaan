@@ -9,10 +9,16 @@ function Home() {
   return (
     <>
         <Hero></Hero>
-        <div className='container'>
-          <Brands></Brands>
-          <About></About>
-          <Contact></Contact>
+        <div className='container view'>
+          <div className="block">
+            <About></About>
+          </div>
+          <div className="block">
+            <Brands></Brands>
+          </div>
+          <div className="block">
+            <Contact></Contact>
+          </div>
         </div>
         <Footer></Footer>
     </>
