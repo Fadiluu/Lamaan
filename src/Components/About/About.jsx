@@ -18,9 +18,9 @@ function About() {
               <li>
                 <div class="frame-child br15"></div>
               </li>
-              <li><img class="frame-item br15" alt=""  src='./Images/Contact/Mashahir.jpeg'/></li>
-              <li><img class="frame-inner br15" alt="" src='./Images/Contact/Lamaan.jpeg'/></li>
-              <li><img class="frame-item br15" alt=""  src='./Images/Contact/Desert.jpeg'/></li>
+              <li><img  class="frame-item br15" alt=""  src='./Images/Contact/Mashahir.jpeg'/></li>
+              <li><img  class="frame-inner br15" alt="" src='./Images/Contact/Lamaan.jpeg'/></li>
+              <li><img  class="frame-item br15" alt=""  src='./Images/Contact/Desert.jpeg'/></li>
             </ul>
           </div>
         </div>

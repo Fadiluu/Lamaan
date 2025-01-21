@@ -1,4 +1,5 @@
 /* Navigation Setup -------------------------*/
+
 li {
     list-style: none;
 }
@@ -85,7 +86,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 240px;
+    height: 200px;
 }
 
 .dropdown_menu li {

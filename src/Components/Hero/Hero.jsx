@@ -23,7 +23,7 @@ function Hero() {
           </div>
           <div className="hero__card--div grid elements--icon">
             <div className="hero__card br15 bg--black">
-              <h4>50+</h4>
+              <h4>25+</h4>
               <p>Employees</p>
             </div>
             <div className="hero__card br15 bg--black">
@@ -31,7 +31,7 @@ function Hero() {
               <p>Year of Expertise</p>
             </div>
             <div className="hero__card br15 bg--black">
-              <h4>100k+</h4>
+              <h4>1000+</h4>
               <p>Customers</p>
             </div>
             

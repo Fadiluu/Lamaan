@@ -54,7 +54,7 @@ function Brands() {
         <div className="brands__first--div">
           <div className="brands__first__title--div grid titles--content" >
             <div className='grid titles--content'>
-              <h4>Our Services</h4>
+              <h4>Our Branches</h4>
               <div>
                 <h1 className='text--red'>02</h1>
                 <hr></hr>
@@ -70,7 +70,7 @@ function Brands() {
              {brands.map((brand, index) => (
             <div key={index} className="brands__image--div grid elements--icon" onClick={() => handleBrandClick(brand)
               }>
-              <img src={brand.imgSrc} alt={brand.altText} className="br15" />
+              <img loading='lazy' src={brand.imgSrc} alt={brand.altText} className="br15" />
               <h4 className={selectedBrand.title === brand.title ? 'text--red' : ''}>{brand.title}</h4>
             </div>
           ))}
